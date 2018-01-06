@@ -12,6 +12,7 @@ import UIKit
 class SecondViewController: UIViewController {
 
     var username = "Charlie"
+    var activeRow = 1
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,6 +20,7 @@ class SecondViewController: UIViewController {
         
         print(globalVariable)
         print(username)
+        print(activeRow + 1)
     }
 
     override func didReceiveMemoryWarning() {
