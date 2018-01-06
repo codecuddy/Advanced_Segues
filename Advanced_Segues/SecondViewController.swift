@@ -8,12 +8,17 @@
 
 import UIKit
 
+
 class SecondViewController: UIViewController {
+
+    var username = "Charlie"
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
         // Do any additional setup after loading the view.
+        
+        print(globalVariable)
+        print(username)
     }
 
     override func didReceiveMemoryWarning() {

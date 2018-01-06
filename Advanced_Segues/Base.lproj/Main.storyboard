@@ -23,7 +23,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Switch to 2nd View"/>
                                 <connections>
-                                    <segue destination="79n-xD-gqz" kind="show" id="S3d-br-8pB"/>
+                                    <segue destination="79n-xD-gqz" kind="show" identifier="toSecondViewController" id="S3d-br-8pB"/>
                                 </connections>
                             </button>
                         </subviews>
